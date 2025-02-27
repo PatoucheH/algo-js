@@ -12,8 +12,8 @@ function calcSurface(length, width) {
   return length + width;
 }
 
-length = Number(prompt("Please enter the length to calculate : "));
-width = Number(prompt("Please enter the width to calculate : "));
+let length = Number(prompt("Please enter the length to calculate : "));
+let width = Number(prompt("Please enter the width to calculate : "));
 
 // console.log(width);
 // console.log(length);

@@ -12,4 +12,4 @@ export default function rand10() {
   return num;
 }
 
-console.log(rand10());
+// console.log(rand10());
