@@ -1,0 +1,15 @@
+const prompt = require("prompt-sync")();
+
+let input = prompt("Enter an array of number : ");
+// console.log(input);
+
+let arraySplit = input.split(",");
+let arrayNumber = arraySplit.map(Number);
+let total = 0;
+// console.log(arrayNumber);
+
+for (let num of arrayNumber) {
+  //   console.log("the number = " + num);
+  total += num;
+}
+console.log(total);
