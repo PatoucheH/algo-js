@@ -1,4 +1,6 @@
-const prompt = require("prompt-sync")();
+import promptSync from "prompt-sync";
+
+const prompt = promptSync();
 
 let input = prompt("Enter an array (separate by ',' or '.' : ");
 let cleanInput = input.replace(/[\[\]]/g, "");
