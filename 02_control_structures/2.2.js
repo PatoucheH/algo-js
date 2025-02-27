@@ -1,4 +1,6 @@
-const prompt = require('prompt-sync')();
+import promptSync from "prompt-sync";
+
+const prompt = promptSync();
 
 let min = Number(prompt("Entrez un minimum : "));
 let max = Number(prompt("Entrez un maximum : "));
