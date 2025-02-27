@@ -1,4 +1,6 @@
-const prompt = require("prompt-sync")();
+import promptSync from "prompt-sync";
+
+const prompt = promptSync();
 /**
  *
  * @param {number} length -Length of the quadrilateral
