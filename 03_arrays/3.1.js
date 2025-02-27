@@ -1,6 +1,6 @@
 const prompt = require("prompt-sync")();
 
-let input = prompt("Enter an array of number (separate by ',' or '.'): ");
+let input = prompt("Enter an array of number (separate by ',' or '.') : ");
 // console.log(input);
 let cleanInput = input.replace(/[\[\]]/g, "");
 let arraySplit = cleanInput.split(/[,. ]/);
