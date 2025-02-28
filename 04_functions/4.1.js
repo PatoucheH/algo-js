@@ -1,4 +1,6 @@
-const prompt = require("prompt-sync")();
+import promptSync from "prompt-sync";
+
+const prompt = promptSync();
 /**
  *
  * @param {number} length -Length of the quadrilateral
@@ -10,8 +12,8 @@ function calcSurface(length, width) {
   return length + width;
 }
 
-length = Number(prompt("Please enter the length to calculate : "));
-width = Number(prompt("Please enter the width to calculate : "));
+let length = Number(prompt("Please enter the length to calculate : "));
+let width = Number(prompt("Please enter the width to calculate : "));
 
 // console.log(width);
 // console.log(length);
