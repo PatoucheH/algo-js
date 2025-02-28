@@ -4,6 +4,10 @@ const prompt = promptSync();
 let n = Number(
   prompt("Enter a number to choose the number to learner to pick : ")
 );
-let input = prompt("Enter an array of learner : ");
+let inputAr = prompt("Enter an array of learner : ");
 
-function pickLearner(inputAr, n) {}
+console.log(inputAR);
+
+
+
+// function pickLearner(inputAr, n) {}
