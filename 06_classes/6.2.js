@@ -1,4 +1,4 @@
-class Rectangle {
+export class Rectangle {
   constructor(topLeftXPos, topLeftYPos, width, length) {
     this.topLeftXPos = topLeftXPos;
     this.topLeftYPos = topLeftYPos;
