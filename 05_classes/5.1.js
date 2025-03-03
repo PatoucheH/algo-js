@@ -23,10 +23,11 @@ export function askTvSerie() {
   return tvSerie;
 }
 
-// askTvSerie();
-
 // console.log(askTvSerie())
 
-// JSON.stringify(askTvSerie())
+let tvSerie = askTvSerie();
 
-console.log(JSON.stringify(askTvSerie()));
+
+export let jsonTvSerie = JSON.stringify(tvSerie);
+
+console.log(jsonTvSerie);
